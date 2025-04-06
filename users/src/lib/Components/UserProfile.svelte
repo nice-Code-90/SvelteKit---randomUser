@@ -1,13 +1,13 @@
 <div class="contact-card">
 	<img
-		src="https://i0.wp.com/www.lifewaycenters.com/wp-content/uploads/2016/06/placeholder-150x150-1.png?fit=150%2C150&ssl=1"
-		alt="profile"
+		src="https://i0.wp.com/www.lifewaycenters.com/wp-content/uploads/2016/06/placeholder-150x150-1.png?fit=150%2C150&ssl=1
+"
+		alt="user-picture"
 	/>
-
-	<div class="user-details">
+	<div>
 		<p>Name: John Doe</p>
-		<p>Email: iamnotexistingperson@writeme.com</p>
-		<p>Age: 30</p>
+		<p>Email: notexistingperson@writeme.com</p>
+		<p>Age: 33</p>
 	</div>
 </div>
 

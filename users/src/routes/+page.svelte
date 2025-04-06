@@ -1,10 +1,7 @@
 <script>
-	import ContactCard from '$lib/Component/ContactCard.svelte';
+	import UserProfile from '$lib/Components/UserProfile.svelte';
 </script>
 
-<ContactCard />
-<ContactCard />
-<ContactCard />
-
-<style>
-</style>
+<UserProfile></UserProfile>
+<UserProfile></UserProfile>
+<UserProfile></UserProfile>
