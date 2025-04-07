@@ -1,13 +1,28 @@
+<script>
+	let showAge = $state(true);
+
+	function toggleAge() {
+		showAge = !showAge;
+	}
+
+	import { fly } from 'svelte/transition';
+</script>
+
 <div class="contact-card">
 	<img
-		src="https://i0.wp.com/www.lifewaycenters.com/wp-content/uploads/2016/06/placeholder-150x150-1.png?fit=150%2C150&ssl=1
-"
-		alt="user-picture"
+		src="https://i0.wp.com/www.lifewaycenters.com/wp-content/uploads/2016/06/placeholder-150x150-1.png?fit=150%2C150&ssl=1"
+		alt="profile"
 	/>
-	<div>
+
+	<div class="user-details">
 		<p>Name: John Doe</p>
-		<p>Email: notexistingperson@writeme.com</p>
-		<p>Age: 33</p>
+		<p>Email: iamnotexistingperson@writeme.com</p>
+		<button onclick={toggleAge}>
+			{showAge ? 'Hide Age' : 'Show Age'}
+		</button>
+		{#if showAge}
+			<p transition:fly={{ duration: 300 }}>Age: 33</p>
+		{/if}
 	</div>
 </div>
 
