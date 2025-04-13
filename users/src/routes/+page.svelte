@@ -2,6 +2,6 @@
 	import UserProfile from '$lib/Components/UserProfile.svelte';
 </script>
 
-<UserProfile></UserProfile>
-<UserProfile></UserProfile>
-<UserProfile></UserProfile>
+<UserProfile name="John Doe" email="john@someone.com" age={33}></UserProfile>
+<UserProfile name="John Doe" email="john@someone.com" age={33}></UserProfile>
+<UserProfile name="John Doe" email="john@someone.com" age={33}></UserProfile>
