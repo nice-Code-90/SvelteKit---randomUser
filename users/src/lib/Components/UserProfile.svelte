@@ -1,7 +1,6 @@
 <script>
 	let showAge = $state(true);
 	let data = $props();
-	console.log(data);
 
 	function toggleAge() {
 		showAge = !showAge;
