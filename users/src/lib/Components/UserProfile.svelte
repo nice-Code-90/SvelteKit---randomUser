@@ -17,13 +17,13 @@
 	/>
 
 	<div class="user-details">
-		<p>Name: John Doe</p>
-		<p>Email: iamnotexistingperson@writeme.com</p>
+		<p>Name: {data.name}</p>
+		<p>Email: {data.email}</p>
 		<button onclick={toggleAge}>
 			{showAge ? 'Hide Age' : 'Show Age'}
 		</button>
 		{#if showAge}
-			<p transition:fly={{ duration: 300 }}>Age: 33</p>
+			<p transition:fly={{ duration: 300 }}>Age: {data.age}</p>
 		{/if}
 	</div>
 </div>
